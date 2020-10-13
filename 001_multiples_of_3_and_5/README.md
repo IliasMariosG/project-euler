@@ -2,6 +2,8 @@
 
 ## [Multiples of 3 and 5](https://projecteuler.net/problem=1)
 
+[<main](./../README.md)/[next>](./../002_even_fibonacci_numbers/README.md)
+
 ### The example:
 `If we list all the natural numbers below 10 that are multiples of 3 or 5, we get `
 ```
