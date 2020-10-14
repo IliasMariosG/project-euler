@@ -17,7 +17,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |---|---|---|---|---|
 |[001](./001_multiples_of_3_and_5/README.md)|Y|Y|Y||
 |[002](./002_even_fibonacci_numbers/README.md)|Y|Y||See README 002 for idea on refactoring|
-|003|||||
+|[003](./003_largest_prime_factor/README.md)|Y|Y|||
 |004|||||
 |005|||||
 |006|||||
