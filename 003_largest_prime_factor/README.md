@@ -2,7 +2,7 @@
 
 ## [Largest prime factor](https://projecteuler.net/problem=3)
 
-[<prev](./../002_even_fibonacci_numbers/README.md)/[next>](./../xxx_dirname/README.md) 
+[<prev](./../002_even_fibonacci_numbers/README.md)/[next>](./../004_largest_palindrome_product/README.md) 
 
 ### The example:
 `The prime factors of 13195 are 5, 7, 13 and 29.`
