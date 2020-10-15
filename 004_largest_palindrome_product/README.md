@@ -2,7 +2,7 @@
 
 ## [Largest palindrome product](https://projecteuler.net/problem=4)
 
-[<prev](./../003_largest_prime_factor/README.md)/[next>](./../xxx_dirname/README.md) 
+[<prev](./../003_largest_prime_factor/README.md)/[next>](./../README.md) 
 
 ### The example:
 `A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.`
@@ -29,7 +29,7 @@ ELSE the number is not a palindrome
   RETURN false
 ```
 ```
-SET list of pallindromes as an empty list
+SET list of palindromes as an empty list
 FOR each number between 999 and 100
   FOR each number between CURRENT NUMBER and 100
     MULTIPLY the two numbers together

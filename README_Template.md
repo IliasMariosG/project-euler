@@ -2,7 +2,7 @@
 
 ## [`Title goes here`](https://projecteuler.net/problem=)
 
-[<prev](./../xxx_dirname/README.md)/[next>](./../xxx_dirname/README.md) 
+[<prev](./../xxx_dirname/README.md)/[next>](./../README.md) 
 
 ### The example:
 `paste example text inside the upticks`
