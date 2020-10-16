@@ -2,7 +2,7 @@
 
 ## [Largest palindrome product](https://projecteuler.net/problem=4)
 
-[<prev](./../003_largest_prime_factor/README.md)/[next>](./../README.md) 
+[<prev](./../003_largest_prime_factor/README.md)/[next>](./../005_smallest_multiple.README.md) 
 
 ### The example:
 `A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.`
