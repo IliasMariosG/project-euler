@@ -19,8 +19,8 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[002](./002_even_fibonacci_numbers/README.md)|Y|Y||See README 002 for idea on refactoring.|
 |[003](./003_largest_prime_factor/README.md)|Y|Y|~|Refactoring was before the first iteration was coded.|
 |[004](./004_largest_palindrome_product/README.md)|Y|Y||See README 004 for idea on refactoring.|
-|[005](./005_smallest_multiple.README.md)|Y|Y|||
-|006|||||
+|[005](./005_smallest_multiple/README.md)|Y|Y|||
+|[006](./006_sum_square_difference/README.md)|Y|Y|||
 |007|||||
 |008|||||
 |009|||||

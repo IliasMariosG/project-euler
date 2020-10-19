@@ -2,7 +2,7 @@
 
 ## [Smallest multiple](https://projecteuler.net/problem=5)
 
-[<prev](./../004_largest_palindrome_product/README.md)/[next>](./../README.md) 
+[<prev](./../004_largest_palindrome_product/README.md)/[next>](./../006_sum_square_difference/README.md) 
 
 ### The example:
 `2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.`
