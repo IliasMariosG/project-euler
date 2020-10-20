@@ -21,7 +21,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[004](./004_largest_palindrome_product/README.md)|Y|Y||See README 004 for idea on refactoring.|
 |[005](./005_smallest_multiple/README.md)|Y|Y|||
 |[006](./006_sum_square_difference/README.md)|Y|Y|||
-|007|||||
+|[007](./007_10001st_prime/README.md)|Y|Y|||
 |008|||||
 |009|||||
 |010|||||

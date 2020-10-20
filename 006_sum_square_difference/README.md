@@ -2,7 +2,7 @@
 
 ## [Sum square difference](https://projecteuler.net/problem=6)
 
-[<prev](./../005_smallest_multiple.README.md)/[next>](./../README.md) 
+[<prev](./../005_smallest_multiple.README.md)/[next>](./../007_10001st_prime/README.md) 
 
 ### The example:
 
