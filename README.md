@@ -22,6 +22,6 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[005](./005_smallest_multiple/README.md)|Y|Y|||
 |[006](./006_sum_square_difference/README.md)|Y|Y|||
 |[007](./007_10001st_prime/README.md)|Y|Y|||
-|008|||||
+|[008](./008_largest_product_in_a_series/README.md)|Y|Y|||
 |009|||||
 |010|||||

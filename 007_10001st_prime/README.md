@@ -2,7 +2,7 @@
 
 ## [10001st prime](https://projecteuler.net/problem=7)
 
-[<prev](./../006_sum_square_difference/README.md)/[next>](./../README.md) 
+[<prev](./../006_sum_square_difference/README.md)/[next>](./../008_largest_product_in_a_series/README.md) 
 
 ### The example:
 `By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.`
