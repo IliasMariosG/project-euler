@@ -2,7 +2,7 @@
 
 ## [Largest product in a series](https://projecteuler.net/problem=8)
 
-[<prev](./../007_10001st_prime/README.md)/[next>](./../README.md) 
+[<prev](./../007_10001st_prime/README.md)/[next>](./../009_special_pythagorean_triple/README.md) 
 
 ### The example:
 `The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.`
