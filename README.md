@@ -24,4 +24,15 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[007](./007_10001st_prime/README.md)|Y|Y|||
 |[008](./008_largest_product_in_a_series/README.md)|Y|Y|||
 |[009](./009_special_pythagorean_triple/README.md)|Y|Y|||
-|010|||||
+|[010](./010_summation_of_primes/README.md)|Y|Y|||
+|011|||||
+|012|||||
+|013|||||
+|014|||||
+|015|||||
+|016|||||
+|017|||||
+|018|||||
+|019|||||
+|020|||||
+||||||

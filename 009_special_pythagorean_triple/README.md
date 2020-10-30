@@ -2,7 +2,7 @@
 
 ## [Special Pythagorean triple](https://projecteuler.net/problem=9)
 
-[<prev](./../008_largest_product_in_a_series/README.md)/[next>](./../README.md) 
+[<prev](./../008_largest_product_in_a_series/README.md)/[next>](./../010_summation_of_primes/README.md) 
 
 ### The example:
 `A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
