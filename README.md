@@ -25,7 +25,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[008](./008_largest_product_in_a_series/README.md)|Y|Y|||
 |[009](./009_special_pythagorean_triple/README.md)|Y|Y|||
 |[010](./010_summation_of_primes/README.md)|Y|Y|||
-|011|||||
+|[011](./011_largest_product_in_a_grid/README.md)|Y|Y|||
 |012|||||
 |013|||||
 |014|||||

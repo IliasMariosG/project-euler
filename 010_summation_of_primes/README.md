@@ -2,7 +2,7 @@
 
 ## [Summation of primes](https://projecteuler.net/problem=10)
 
-[<prev](./../009_special_pythagorean_triple/README.md)/[next>](./../README.md) 
+[<prev](./../009_special_pythagorean_triple/README.md)/[next>](./../011_largest_product_in_a_grid/README.md) 
 
 ### The example:
 `The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.`
