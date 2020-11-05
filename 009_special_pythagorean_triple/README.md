@@ -5,7 +5,7 @@
 [<prev](./../008_largest_product_in_a_series/README.md)/[next>](./../010_summation_of_primes/README.md) 
 
 ### The example:
-`A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+`A Pythagorean triplet is a set of three natural numbers, a < b < c, for which:`
 
 ```
 a^2 + b^2 = c^2
@@ -21,7 +21,7 @@ As per the example, `c` must be the largest of the three numbers in the triple. 
 [it is not possible that an isosceles triangle can be a pythagorean triple](https://en.wikipedia.org/wiki/Special_right_triangle#:~:text=%3A305-,Almost%2Disosceles%20Pythagorean%20triples,isosceles%20right%20triangles%20do%20exist.)
 .\
 Also it is understood that in order for a set of three numbers to form a triangle at all; 
-[the largest among them must be `less than` half of the combined total.](https://www.codewars.com/kata/reviews/56654b518dd05b11d1000049/groups/5dda5a4e26312500014bbb12) 
+[the largest among them must be **less than** half of the combined total.](https://www.codewars.com/kata/reviews/56654b518dd05b11d1000049/groups/5dda5a4e26312500014bbb12) 
 This means that the length of the hypotenuse must be less than 500, so we only need to consider numbers below 499.\
 Within the scope of this challenge it doesn't actually matter whether `a` or `b` is larger, the result would be the same. In a more general version of this problem where this 
 <b>
