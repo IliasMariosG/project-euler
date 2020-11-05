@@ -61,11 +61,13 @@ FOR each number in the list
 
 ### Comments on first iteration:
 While I'm certain the above logic would work and provide the answer, it does appear to be very complicated and involves iterating oven numbers in ranges multiple times.\
-After having a discussion with some colleagues, I realised there was something missing from my mathematical repertoire; I hadn't learned (or have completely forgotten) how to do [prime factorisation](https://en.wikipedia.org/wiki/Table_of_prime_factors) and that if I could discover a way to implement this style of analysis, it was likely to be more efficient. It would take less code too so in a way it is fortunate that I had these discussions before I tried to program the above pseudocode.
+After having a discussion with some colleagues, I realised there was something missing from my mathematical repertoire; I hadn't learned (or have completely forgotten) how to do 
+[prime factorisation](https://en.wikipedia.org/wiki/Table_of_prime_factors) 
+and that if I could discover a way to implement this style of analysis, it was likely to be more efficient. It would take less code too so in a way it is fortunate that I had these discussions before I tried to program the above pseudocode.
 
 ### Refactoring
 In an unconventional timeline of events, I refactored my code before I had even written it in the first place. \
-What I realised was:
+What I realised was:\
 If we start with any (large-ish) number, and try to divide it by 2 as many times as we can (this could be 0 times or it could be many times) it will eventually result in an odd number.
 This new odd number will never be divisible by 2 again; we have by now exhausted that possibility. So we increase our denominator and perform repeated divisions by 3 until we cannot.\
 Then we go to the next prime, ie 5, then 7 etc.\
