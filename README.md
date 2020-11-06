@@ -27,7 +27,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[010](./010_summation_of_primes/README.md)|Y|Y|||
 |[011](./011_largest_product_in_a_grid/README.md)|Y|Y|||
 |[012](./012_highly_divisible_triangular_number/README.md)|Y|Y|||
-|013|||||
+|[013](./013_large_sum/README.md)|Y|Y|||
 |014|||||
 |015|||||
 |016|||||
