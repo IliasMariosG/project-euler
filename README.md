@@ -28,7 +28,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[011](./011_largest_product_in_a_grid/README.md)|Y|Y|||
 |[012](./012_highly_divisible_triangular_number/README.md)|Y|Y|||
 |[013](./013_large_sum/README.md)|Y|Y|||
-|014|||||
+|[014](./014_longest_collatz_sequence/README.md)|Y|Y|||
 |015|||||
 |016|||||
 |017|||||

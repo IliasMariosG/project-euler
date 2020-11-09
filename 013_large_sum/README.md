@@ -2,7 +2,7 @@
 
 ## [Large sum](https://projecteuler.net/problem=13)
 
-[<prev](./../012_highly_divisible_triangular_number/README.md)/[next>](./../README.md) 
+[<prev](./../012_highly_divisible_triangular_number/README.md)/[next>](./../014_longest_collatz_sequence/README.md) 
 
 ### The challenge:
 `Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.`
