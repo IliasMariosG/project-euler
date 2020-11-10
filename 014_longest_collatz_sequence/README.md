@@ -2,7 +2,7 @@
 
 ## [Longest Collatz sequence](https://projecteuler.net/problem=14)
 
-[<prev](./../013_large_sum/README.md)/[next>](./../README.md) 
+[<prev](./../013_large_sum/README.md)/[next>](./../015_lattice_paths/README.md) 
 
 ### The example:
 `The following iterative sequence is defined for the set of positive integers:`
