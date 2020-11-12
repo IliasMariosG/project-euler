@@ -25,10 +25,7 @@ def actual_euler_problem(lim):
   for i in range(2, lim):
     sequence_length = how_many_collatz_terms(i)
     collatz_cache[i] = sequence_length
-    if sequence_length > longest_sequence:
-      longest_sequence = sequence_length
-      starting_number_with_longest_sequence = i
-  return starting_number_with_longest_sequence
+  return max(collatz_cache, key=lambda k: collatz_cache[k])
 
 if __name__ == '__main__':
   print(actual_euler_problem(1000000))
