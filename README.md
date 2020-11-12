@@ -30,7 +30,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[013](./013_large_sum/README.md)|Y|Y|||
 |[014](./014_longest_collatz_sequence/README.md)|Y|Y|||
 |[015](./015_lattice_paths/README.md)|Y|Y|||
-|016|||||
+|[016](./016_power_digit_sum/README.md)|Y|Y|||
 |017|||||
 |018|||||
 |019|||||
