@@ -2,7 +2,7 @@
 
 ## [Power digit sum](https://projecteuler.net/problem=16)
 
-[<prev](./../015_lattice_paths/README.md)/[next>](./../README.md) 
+[<prev](./../015_lattice_paths/README.md)/[next>](./../017_number_letter_counts/README.md) 
 
 ### The example:
 `2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.`

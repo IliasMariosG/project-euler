@@ -28,10 +28,10 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[011](./011_largest_product_in_a_grid/README.md)|Y|Y|||
 |[012](./012_highly_divisible_triangular_number/README.md)|Y|Y|||
 |[013](./013_large_sum/README.md)|Y|Y|||
-|[014](./014_longest_collatz_sequence/README.md)|Y|Y|||
+|[014](./014_longest_collatz_sequence/README.md)|Y|Y|Y|My first time trying out memoisation|
 |[015](./015_lattice_paths/README.md)|Y|Y|||
 |[016](./016_power_digit_sum/README.md)|Y|Y|||
-|017|||||
+|[017](./017_number_letter_counts/README.md)|Y|Y|||
 |018|||||
 |019|||||
 |020|||||
