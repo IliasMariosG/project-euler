@@ -62,6 +62,8 @@ FOR each year in range 1900 - 2000 (inc):
 ```
 
 ### Comments on first iteration:
-normal text
+The code provided the solution as expected; however I did discover a rather easier way to come to the answer just using a calculater - In the spirit of not sharing the solution too overtly, I will not elaborate.\
+It is easy to see how this could be improved; the FOR loop is basically repeating the exact same logic. I should be able to refactor the `is_it_a_leap()` function so that it returns the actual list of months relevant to that particular year which would allow the FOR loop to be reduces almost by half. \
+Another thing I've noticed here is that since I copied the format to be quite close to the above pseudocode, it resulted in my having to use global variables. This was the first time I'd seen these iwhile working in Python so it was a good learning opportunity to discover how they work.
 
 ### Refactoring:
