@@ -23,7 +23,7 @@
 
 ### Initial thoughts:
 Similar to the earlier 
-[problem 17](./../017_number_letter_counts.README.md), 
+[problem 17](./../017_number_letter_counts/README.md), 
 I guess that there probably will be some sort of package available to use with Python that will be capable of providing the solution fairly easily. Also similarl to the earlier problem 17; I will avoid using that route to the solution. Project Euler is a series of challenges with the emphasis on maths, and I'd like to practice applying logic to find my own solution. \
 This problem also has some relationship with the popular leap-year kata; which I had heard/talked/thought about before but never actually worked on. I started by 
 [completing this kata](https://www.codewars.com/kata/reviews/553a8c52f3cc9482dc000116/groups/553c01f0a21770fd23000002), 

@@ -13,7 +13,7 @@
 ### Initial thoughts:
 A prime number has no factors (other than itself and 1) so any number that has any factors is therefore not prime.\
 As mentioned previously in 
-[Problem 3](./../003_largest_prime_factor.README.md);
+[Problem 3](./../003_largest_prime_factor/README.md);
 a number's square root repersents the median of the list of factors, so if a number has factors, we only need to look on one side of the square root in order to find them. Whether a number is a perfect square or not, the checking will be up to the next integer higher than the square root.\
 We do not need to find all, or even more than one. Just identifying one is enough to render a number as 'not prime'.\
 Since there is no recognisable pattern to where among the natural numbers primes are located; we will have to check each number in turn to find out if it is prime or not. Then we need to somehow track how many primes we have identified and stop when we get to our target of 10001.

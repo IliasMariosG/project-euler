@@ -2,7 +2,7 @@
 
 ## [Maximum path sum I](https://projecteuler.net/problem=18)
 
-[<prev](./../017_number_letter_counts/README.md)/[next>](./../019_counting_sundays.README.md) 
+[<prev](./../017_number_letter_counts/README.md)/[next>](./../019_counting_sundays/README.md) 
 
 ### The example:
 `By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.`

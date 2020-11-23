@@ -2,7 +2,7 @@
 
 ## [Number letter counts](https://projecteuler.net/problem=17)
 
-[<prev](./../016_power_digit_sum/README.md)/[next>](./../018_maximum_sum_path_I.README.md) 
+[<prev](./../016_power_digit_sum/README.md)/[next>](./../018_maximum_sum_path_I/README.md) 
 
 ### The example:
 `If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.`
