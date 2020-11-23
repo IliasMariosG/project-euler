@@ -60,6 +60,7 @@ FOR each year in range 1900 - 2000 (inc):
     THEN increment sunday_first_count
     ELSE continue to the next month
 ```
+*Start counting from 1 because we are starting on a Monday, and we want Sunday to correspond to day_counts that are multiples of 7.
 
 ### Comments on first iteration:
 The code provided the solution as expected; however I did discover a rather easier way to come to the answer just using a calculater - In the spirit of not sharing the solution too overtly, I will not elaborate.\
