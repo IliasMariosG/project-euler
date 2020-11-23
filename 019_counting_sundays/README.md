@@ -56,7 +56,7 @@ FOR each year in range 1900 - 2000 (inc):
   CHECK if year is leap OR common
   FOR each month in the relevant list
     INCREMENT the days_passed by the appropriate number from the list
-    IF days_passed is divisible by 7
+    IF days_passed is divisible by 7 AND year is greater than 1900
     THEN increment sunday_first_count
     ELSE continue to the next month
 ```
