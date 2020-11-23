@@ -45,7 +45,7 @@ This problem did turn out to be more difficult than I thought, mathematically. I
 I tried to solve it manually at first, hoping to find some guidance of how to come to the solution and then at that point starting to figure out how that solution might be translatable to code, or made general. \
 I tried starting at the top and picking left or right depending on which was larger. This did not provide the solution. \
 Starting at the bottom and working up, picking a dorection based on which was a higher number also did not. \
-Finding large numbers near the middle and working 'simultaneously' up and downwards was also fruitless. \
+Finding large numbers near the middle and working 'simultaneously' up and downwards was also fruitless. 
 
 I was clearly in need of assistance, so I got some pointers from a friend who was able to help. \
 I was led to consider a possible solution using recursion and considering the effect of what changes if the triangle were to hypothetically have extra rows added. This solution will be illustrated below.
