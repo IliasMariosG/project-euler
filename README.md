@@ -33,6 +33,6 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[016](./016_power_digit_sum/README.md)|Y|Y|||
 |[017](./017_number_letter_counts/README.md)|Y|Y|||
 |[018](./018_maximum_sum_path_I.README.md)|Y|Y|||
-|019|||||
+|[019](./019_counting_sundays.README.md)|Y|Y|||
 |020|||||
 ||||||
