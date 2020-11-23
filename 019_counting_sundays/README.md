@@ -30,11 +30,35 @@ This problem also has some relationship with the popular leap-year kata; which I
 and I may use a copy of this code in my solution here if it is needed. 
 
 My initial approach will be to try to set up some sort of counter that increments in steps of 28, 29, 30 or 31 as appropriate depending on the month; and using some value of the modulo of the total days passed to identify if a day is Sunday or not-Sunday. This way I can count the Sundays.\
-Something to note is that the given starting point is January 1900, but no instances of Sunday 1st during 1900 will be included.
+Something to note is that the given starting point is January 1900, but no instances of Sunday 1st during 1900 will be included. This will have to be accounted for in whatever solution I develop.
 
 ### Pseudocode for first iteration:
 ```
-PSEUDOCODE here
+SET sunday_first_count = 0
+SET running total for days_passed = 1*
+CREATE a list of days of each month for a Common Year =
+  [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+CREATE a list of days of each month for a Leap Year =
+  [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+PREPARE logic for determining if a year is Leap:
+  IF year is divisible by 400
+  THEN return True
+  ELSE
+    IF year is divisible by 100
+    THEN return False
+    ELSE
+      IF year is divisible by 4
+      THEN return True
+      ELSE return False
+
+FOR each year in range 1900 - 2000 (inc):
+  CHECK if year is leap OR common
+  FOR each month in the relevant list
+    INCREMENT the days_passed by the appropriate number from the list
+    IF days_passed is divisible by 7
+    THEN increment sunday_first_count
+    ELSE continue to the next month
 ```
 
 ### Comments on first iteration:
