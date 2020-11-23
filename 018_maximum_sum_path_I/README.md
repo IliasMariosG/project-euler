@@ -1,4 +1,4 @@
-# Problem 019
+# Problem 018
 
 ## [Maximum path sum I](https://projecteuler.net/problem=18)
 
