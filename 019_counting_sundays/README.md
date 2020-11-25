@@ -2,7 +2,7 @@
 
 ## [Counting Sundays](https://projecteuler.net/problem=19)
 
-[<prev](./../018_maximum_sum_path_I/README.md)/[next>](./../README.md) 
+[<prev](./../018_maximum_sum_path_I/README.md)/[next>](./../020_factorial_digit_sum/README.md) 
 
 ### The example:
 `You are given the following information, but you may prefer to do some research for yourself.`
