@@ -4,19 +4,5 @@ given_series = 73167176531330624919225119674426574742355349194934969835203127745
 
 given_series_as_digits = [int(d) for d in str(given_series)]
 
-# def find_product_of_n_consecutive_digits(n, given_digits):
-#   product = 0
-#   starting_at = 0
-#   stopping_at = starting_at + n
-#   while stopping_at < len(given_digits):
-#     stopping_at = starting_at + n
-#     prod = 1
-#     for i in given_digits[starting_at:stopping_at]:
-#       prod *= i
-#     if prod > product:
-#       product = prod
-#     starting_at += 1
-#   return product
-
 if __name__ == '__main__':
   print(find_product_of_n_consecutive_digits(13, given_series_as_digits))

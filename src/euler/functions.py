@@ -13,7 +13,7 @@ def is_it_a_prime(number):
       return False
   return True
 
-# Originally from problem 007
+# Originally from problem 008
 def find_product_of_n_consecutive_digits(n, given_digits):
   product = 0
   starting_at = 0
@@ -27,3 +27,13 @@ def find_product_of_n_consecutive_digits(n, given_digits):
       product = prod
     starting_at += 1
   return product
+
+# Originally from problem 016
+def convert_int_to_digits(number):
+  number_list = [int(i) for i in list(str(number))]
+  return number_list
+
+# Originally from problem 020
+def sum_of_digits(large_number):
+  result = sum(convert_int_to_digits(large_number))
+  return result

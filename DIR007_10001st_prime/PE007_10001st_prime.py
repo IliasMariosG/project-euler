@@ -1,17 +1,4 @@
-from math import floor, sqrt
 from euler.functions import is_it_a_prime
-
-# def sqrt_rounded_up(number):
-#   sqrt_rounded_up = floor(sqrt(number))+1
-#   return sqrt_rounded_up
-
-# def is_it_a_prime(number):
-#   if number == 2: return True
-#   if number % 2 == 0: return False
-#   for i in range(2, sqrt_rounded_up(number)+1):
-#     if number % i == 0:
-#       return False
-#   return True
 
 def list_o_primes(length):
   list_o_primes = []

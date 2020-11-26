@@ -1,9 +1,15 @@
 from math import factorial
-from ./016_power_digit_sum/PE016_power_digit_sum import convert_int_to_digits
+from euler.functions import convert_int_to_digits
+from euler.functions import sum_of_digits
 
 def calculate_factorial(number):
   return factorial(number)
 
-
 if __name__ == '__main__':
-  print(calculate_factorial(10))
+  print(
+    sum_of_digits(
+      calculate_factorial(
+        100,
+      )
+    )
+  )
