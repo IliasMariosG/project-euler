@@ -1,6 +1,6 @@
 # Problem 020
 
-## [`Title goes here`](https://projecteuler.net/problem=20)
+## [Factorial digit sum](https://projecteuler.net/problem=20)
 
 [<prev](./../DIR019_counting_sundays/README.md)/[next>](./../README.md) 
 
@@ -32,6 +32,6 @@ RETURN the total
 ```
 
 ### Comments on first iteration:
-normal text
+The function described in the pseudocode above did provide the solution as expected. As an experiment I tried the calculation using `99!` and managed to save a whopping 0.000284&#8239;s, so probably not worthwhile compromising the general solution for this saving. 
 
 ### Refactoring:
