@@ -41,5 +41,5 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |024|||||
 |025|||||
 ||||||
-|067|||||
+|[067](./DIR067_maximum_sum_path_II/README.md)|Y|Y|N/NA?|This is the refactored version of [challenge 18](./DIR018_maximum_sum_path_I/README.md)|
 ||||||
