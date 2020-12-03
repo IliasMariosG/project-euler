@@ -32,7 +32,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[015](./DIR015_lattice_paths/README.md)|Y|Y|||
 |[016](./DIR016_power_digit_sum/README.md)|Y|Y|||
 |[017](./DIR017_number_letter_counts/README.md)|Y|Y|||
-|[018](./DIR018_maximum_sum_path_I/README.md)|Y|Y|||
+|[018](./DIR018_maximum_sum_path_I/README.md)|Y|Y|Y|More memoisation, combined with recursion|
 |[019](./DIR019_counting_sundays/README.md)|Y|Y|||
 |[020](./DIR020_factorial_digit_sum/README.md)|Y|Y|||
 |021|||||
@@ -40,4 +40,6 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |023|||||
 |024|||||
 |025|||||
+||||||
+|067|||||
 ||||||

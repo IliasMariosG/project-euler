@@ -77,4 +77,6 @@ RETURN the calculated sum
 This took a while because I'm still relatively inexperienced with using recursion. It did provide the correct solution to this current problem but was not able to calculate the solution to problem 67 as hoped. This is because it is using brute-force, just in a different way.
 
 ### Refactoring:
-In order to make this more efficient, and hopefully able to solve problem 67, I intend to try to implement some form of memoisation - another technique I am inexperienced in using. 
+In order to make this more efficient, and hopefully able to solve problem 67, I intend to try to implement some form of memoisation - another technique I am inexperienced in using.
+
+The code has now been refactored to include memoisation. This is in the form of a dictionary; that can be looke dup to check if an equivalent triangle has been calculated before. It was interesting to discover that we are unable to use a `list` as the key in a dictionary, something about Python that I did not know before. Therefore the code contains instructions for converting the triangle into a string for storage and lookup purposes.
