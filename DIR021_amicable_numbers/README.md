@@ -14,11 +14,34 @@
 `Evaluate the sum of all the amicable numbers under 10000.`
 
 ### Initial thoughts:
-normal text
+In a similar way to the [highly divisible triangular number problem](./../DIR012_highly_divisible_triangular_number/README.md), we will have to identify how many divisors a given number has; although this time we will also need to keep a record of these numbers. \
+I will use a similar logic using the square root of the number as the 'midpoint' of the factors and use this to subsequently find all the factors.\
+Then after finding the sum of each series of factors; I can check that new number's series of factors to verify if it is amicable.\
+It also should be noted that in the example `1` is included as a factor, but `n` itself is not.
 
 ### Pseudocode for first iteration:
+Get the lower half of the factors
 ```
-PSEUDOCODE here
+SET the list of factors as an empty list
+APPEND 1 to the list of factors
+RECEIVE an integer
+IF the integer is a square number
+THEN append the sqare-root to the list of factors
+ELSE do nothing
+
+FOR every number < the square root AND > 1
+  IF original integer is evenly divisible by this number
+  THEN append this number to the list of factors
+  ELSE do nothing
+
+FOR every element currently in the list of factors
+  NOT including 1
+  NOT including the square root (if the original integer is a square number)
+  APPEND original integer / list element
+
+
+
+
 ```
 
 ### Comments on first iteration:
