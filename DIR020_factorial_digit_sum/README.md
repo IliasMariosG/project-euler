@@ -2,7 +2,7 @@
 
 ## [Factorial digit sum](https://projecteuler.net/problem=20)
 
-[<prev](./../DIR019_counting_sundays/README.md)/[next>](./../README.md) 
+[<prev](./../DIR019_counting_sundays/README.md)/[next>](./../DIR021_amicable_numbers/README.md) 
 
 ### The example:
 `n! means n × (n − 1) × ... × 3 × 2 × 1`

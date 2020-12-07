@@ -35,7 +35,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[018](./DIR018_maximum_sum_path_I/README.md)|Y|Y|Y|More memoisation, combined with recursion|
 |[019](./DIR019_counting_sundays/README.md)|Y|Y|||
 |[020](./DIR020_factorial_digit_sum/README.md)|Y|Y|||
-|021|||||
+|[021](./DIR021_amicable_numbers/README.md)|Y||||
 |022|||||
 |023|||||
 |024|||||
