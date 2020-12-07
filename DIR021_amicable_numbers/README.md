@@ -20,7 +20,7 @@ Then after finding the sum of each series of factors; I can check that new numbe
 It also should be noted that in the example `1` is included as a factor, but `n` itself is not.
 
 ### Pseudocode for first iteration:
-Get the lower half of the factors
+Get the list of factors
 ```
 SET the list of factors as an empty list
 APPEND 1 to the list of factors
@@ -36,12 +36,21 @@ FOR every number < the square root AND > 1
 
 FOR every element currently in the list of factors
   NOT including 1
-  NOT including the square root (if the original integer is a square number)
+  NOT including the square root (if original integer is square)
   APPEND original integer / list element
-
-
-
-
+```
+Check if numbers are 'amicable'
+```
+SET running total = 0
+RECEIVE an integer
+CALCULATE the sum of its factors
+IF the sum of its factors =/= the original integer
+THEN calculate the sum of the factors of the new sum
+  IF sum of factors of new sum = the sum of factors of the original integer
+  THEN the numbers are amicable
+    ADD the original integer to the running total
+  ELSE continue with the next number
+RETURN the running total
 ```
 
 ### Comments on first iteration:
