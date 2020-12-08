@@ -31,11 +31,3 @@ def actual_euler_problem(looking_for_n_factors):
 
 if __name__ == '__main__':
     print(actual_euler_problem(500))
-
-# def build_list_of_triangle_numbers(lim):
-#   list_of_triangle_numbers = []
-#   if len(list_of_triangle_numbers) == 0:
-#     list_of_triangle_numbers.append(0)
-#   while list_of_triangle_numbers[-1] < lim:
-#     list_of_triangle_numbers.append(list_of_triangle_numbers[-1]+len(list_of_triangle_numbers))
-#   return list_of_triangle_numbers
