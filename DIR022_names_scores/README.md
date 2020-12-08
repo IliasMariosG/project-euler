@@ -45,6 +45,10 @@ RETURN overall list score
 ```
 
 ### Comments on first iteration:
-normal text
+I translated the above pseudocode into Python, which provided the solution as expected. There was a bit of difficulty around calculating the `name_score` multiplied by the alphabetic position; since lists are 0-indexed this meant that each alphabetic position was offset by one compared to that name's list position. This was overcome by inserting a blank element at the start of the list which was later ignored during the calculation. \
+The other part that provoked some thought was the decision to make the alphabet scoring dictionary. I had thought of using a list for this and referencing each letter by its index in the list, but I decided to use a dictionary because 
+[dictionary keys are set-like](https://docs.python.org/3.0/library/stdtypes.html#dictionary-view-objects) 
+so using a list would likely be less efficient. 
+
 
 ### Refactoring:
