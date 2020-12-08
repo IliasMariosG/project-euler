@@ -39,7 +39,7 @@ FOR every element currently in the list of factors
   NOT including the square root (if original integer is square)
   APPEND original integer / list element
 ```
-Check if numbers are 'amicable'
+Check if numbers are 'amicable' and calculate total
 ```
 SET running total = 0
 RECEIVE an integer
