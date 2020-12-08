@@ -2,7 +2,7 @@
 
 ## [Amicable numbers](https://projecteuler.net/problem=21)
 
-[<prev](./../DIR019_counting_sundays/README.md)/[next>](./../README.md) 
+[<prev](./../DIR019_counting_sundays/README.md)/[next>](./../DIR022_names_scores/README.md) 
 
 ### The example:
 `Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).`
