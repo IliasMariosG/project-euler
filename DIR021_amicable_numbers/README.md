@@ -37,7 +37,7 @@ FOR every number < the square root AND > 1
 FOR every element currently in the list of factors
   NOT including 1
   NOT including the square root (if original integer is square)
-  APPEND original integer / list element
+  APPEND original (integer/list element)
 ```
 Check if numbers are 'amicable' and calculate total
 ```
@@ -54,6 +54,9 @@ RETURN the running total
 ```
 
 ### Comments on first iteration:
-normal text
+The solution described above worked well, the solution was found without any problem (after I remembered to add the conditional that the sum of factors should not equal the original number).\
+At first I was tempted to use `int(x)` for some of the calculations, since the `/` calculation provides a float as the answer; however I realised this was unneccesary since it did not alter the `sum(list)` function's output. I could also have used integer division, but again; there seems to be no advantage in this implementation.
 
 ### Refactoring:
+The program arrives at the solution in only a few seconds so there is no urgent need for making it more time-efficient. Since I have been learning about memoisation recently and am therefore thinking about that technique, this seems like a good place to use it again. \
+I could add both of the amicable pair to the total at the same time; then apply some logic to skip the partner when doing the loop. This could be something to come back to in the future.
