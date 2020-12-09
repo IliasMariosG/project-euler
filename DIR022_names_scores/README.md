@@ -15,7 +15,9 @@ a 46K text file containing over five-thousand first names, begin by sorting it i
 `What is the total of all the name scores in the file?`
 
 ### Initial thoughts:
-For this challenge I should find a way to extract the data from the `.txt` file through the code rather than copying and pasting the data into the `.py` file like I did [before](DIR067_maximum_sum_path_II/PE067_maximum_sum_path_II.py). This is something I've not done before but I'm certain there will be a solution. \
+For this challenge I should find a way to extract the data from the `.txt` file through the code rather than copying and pasting the data into the `.py` file like I did 
+[before](DIR067_maximum_sum_path_II/PE067_maximum_sum_path_II.py). 
+This is something I've not done before but I'm certain there will be a solution. \
 Other than this, the challenge is going to be fairly straightforward, a case of splitting the text into a list and sorting; then treating each name in turn with some logic to determine its points value. This will likely follow very similar logic to 
 [this kata](https://www.codewars.com/kata/reviews/5bd866f5763340c483001a38/groups/5dc92bd85540590001232834) 
 that I have done previously.
@@ -49,6 +51,5 @@ I translated the above pseudocode into Python, which provided the solution as ex
 The other part that provoked some thought was the decision to make the alphabet scoring dictionary. I had thought of using a list for this and referencing each letter by its index in the list, but I decided to use a dictionary because 
 [dictionary keys are set-like](https://docs.python.org/3.0/library/stdtypes.html#dictionary-view-objects) 
 so using a list would likely be less efficient. 
-
 
 ### Refactoring:
