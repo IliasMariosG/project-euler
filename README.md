@@ -37,7 +37,7 @@ I initially intend to approach each puzzle with a view simply to solve it, befor
 |[020](./DIR020_factorial_digit_sum/README.md)|Y|Y|||
 |[021](./DIR021_amicable_numbers/README.md)|Y|Y|||
 |[022](./DIR022_names_scores/README.md)|Y|Y||Learning about extracting data from a separate file|
-|023|||||
+|[023](./DIR023_non_abundant_sums/README.md)|Y||||
 |024|||||
 |025|||||
 ||||||

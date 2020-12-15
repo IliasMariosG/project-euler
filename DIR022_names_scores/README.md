@@ -2,7 +2,7 @@
 
 ## [Names scores](https://projecteuler.net/problem=22)
 
-[<prev](./../DIR021_amicable_numbers/README.md)/[next>](./../README.md) 
+[<prev](./../DIR021_amicable_numbers/README.md)/[next>](./../DIR023_non_abundant_sums/README.md) 
 
 ### The example:
 `Using 
