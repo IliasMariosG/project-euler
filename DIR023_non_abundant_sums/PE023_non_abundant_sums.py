@@ -19,11 +19,16 @@ def check_if_number_can_be_expressed_as_sum_of_two_list_elements(number, list):
       return True
   return False
 
-
+def calculate_sum_of_all_numbers_below_limit_that_cannot_be_expressed_as_sum_of_two_abundants(
+  limit
+):
+  list_of_abundants = find_all_abundant_numbers_below(limit)
+  list_of_cannot_be_expressed_as_sum = []
+  for i in range(limit):
+    if not check_if_number_can_be_expressed_as_sum_of_two_list_elements(i, list_of_abundants):
+      list_of_cannot_be_expressed_as_sum.append(i)
+  return sum(list_of_cannot_be_expressed_as_sum)
 
 
 if __name__ == '__main__':
-  # print(is_it_abundant_or_not(28))
-  # print(find_all_abundant_numbers_below(100))
-  # mylist = [2,4,6,8,10,12]
-  # print(check_if_number_can_be_expressed_as_sum_of_two_list_elements(25, mylist))
+  print(calculate_sum_of_all_numbers_below_limit_that_cannot_be_expressed_as_sum_of_two_abundants(28123))
