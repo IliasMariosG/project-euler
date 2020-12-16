@@ -19,7 +19,7 @@ My initial thought are that I don't think I understand exactly what is needed he
 1. I will need a way to classify numbers as perfect, abundant or deficient - or in this particular case; abundant or 'not abundant'.
 1. Get a list of all abundant numbers below some limit; 28,123 seems like a good limit to use; although it might be higher than necessary since we are interested in numbers that are the sum of two abundant numbers, probably 28,111 or even lower would suffice as a limit. I may investigate this later but to begin with I will use 28,123.
 1. Check through each integer up to 28,123 and cross reference against the list of all abundant numbers; seeing if the integer can be expressed as the sum of two number in the list.
-1. Find all numbers which can be expressed as the sum of two from the list and get the sum of them.
+1. Find all numbers which cannot be expressed as the sum of two from the list and get the sum of them.
 
 Breaking it down like this has made it seem more straightforward than I initially feared. I think I was thrown off by "this upper limit cannot be reduced any further by analysis even though it is known that the greatest number that cannot be expressed as the sum of two abundant numbers is less than this limit" from the example text.\
 In order to start; I will use the function already prepared in 

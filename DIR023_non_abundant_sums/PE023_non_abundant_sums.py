@@ -24,4 +24,6 @@ def check_if_number_can_be_expressed_as_sum_of_two_list_elements(number, list):
 
 if __name__ == '__main__':
   # print(is_it_abundant_or_not(28))
-  print(find_all_abundant_numbers_below(100))
+  # print(find_all_abundant_numbers_below(100))
+  # mylist = [2,4,6,8,10,12]
+  # print(check_if_number_can_be_expressed_as_sum_of_two_list_elements(25, mylist))
