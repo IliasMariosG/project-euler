@@ -36,6 +36,16 @@ IF the sum is greater than the original number
 THEN return True
 ELSE return False
 ```
+To get a list of abundant numbers below a given limit:
+```
+RECEIVE a limit to search under
+SET list of abundant number to an empty list
+CHECK every number up to the limit if it is abundant or not
+IF it is abundant
+THEN add it to the list
+ELSE do nothing
+RETURN the list of abundant numbers
+```
 
 
 ### Comments on first iteration:
