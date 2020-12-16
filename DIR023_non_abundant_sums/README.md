@@ -57,6 +57,14 @@ FOR each number in the list
   ELSE continue to the next list number
 RETURN False if the list is fully checked and no numbers matched
 ```
+To calculate the sum of all appropriate numbers:
+```
+RECEIVE the limit to work within
+USE the functions to prepare a list of abundant numbers below the limit
+USE the functions to prepare a list of numbers that cannot be expressed as the sum of two abundant numbers
+CALCULATE the sum of all the numbers in the list
+RETURN the sum
+```
 
 
 ### Comments on first iteration:
