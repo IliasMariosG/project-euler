@@ -70,4 +70,5 @@ RETURN the sum
 This approach of breaking the problem down into steps has worked. I was able to calculate the solution. There is the issue of how long it took to arrive at the solution. The calculation took a long time; nearly half an hour (I didn't time it precisely), so there is clearly an opportunity to increase the efficiency here.
 
 ### Refactoring:
-The first thing I would try when refactoring this code is to try to use Sets instead of Lists; at least in some places in the code. I think this would reduce the time spent looking up the numbers needed to prove the "sum of two" case. 
+The first thing I would try when refactoring this code is to try to use Sets instead of Lists; at least in some places in the code. I think this would reduce the time spent looking up the numbers needed to prove the "sum of two" case. \
+The other thing to consider, as touched upon above, is the setting of the limit as lower than the given 28,123. With some consideration I may be able to figure out how to reduce this to a level that is as low as possible while still providing the correct solution.

@@ -29,6 +29,5 @@ def calculate_sum_of_all_numbers_below_limit_that_cannot_be_expressed_as_sum_of_
       list_of_cannot_be_expressed_as_sum.append(i)
   return sum(list_of_cannot_be_expressed_as_sum)
 
-
 if __name__ == '__main__':
   print(calculate_sum_of_all_numbers_below_limit_that_cannot_be_expressed_as_sum_of_two_abundants(28123))
