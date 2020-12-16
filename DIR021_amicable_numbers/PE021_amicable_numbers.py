@@ -1,17 +1,4 @@
-from math import sqrt, ceil
-
-def get_list_of_factors(number):
-  list_of_factors = [1]
-  if sqrt(number) % 1 == 0:
-    list_of_factors.append(sqrt(number))
-
-  for i in range((ceil(sqrt(number)))-1, 1, -1):
-    if number % i == 0:
-      list_of_factors.append(i)
-      list_of_factors.append(number / i)
-  if number == 0: return [0]
-  if number == 1: return [1]
-  return list_of_factors
+from euler.functions import get_list_of_factors
 
 def check_if_amicable(number):
   if sum(get_list_of_factors(number)) == number: return False
