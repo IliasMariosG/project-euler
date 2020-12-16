@@ -28,9 +28,15 @@ to give me the list of factors of a number.
 
 
 ### Pseudocode for first iteration:
+To classify numbers as abundant or not:
 ```
-PSEUDOCODE here
+USE existing function to get a list of factors of a given number
+CALCULATE the sum of these factors
+IF the sum is greater than the original number
+THEN return True
+ELSE return False
 ```
+
 
 ### Comments on first iteration:
 normal text
