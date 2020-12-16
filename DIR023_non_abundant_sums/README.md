@@ -46,6 +46,17 @@ THEN add it to the list
 ELSE do nothing
 RETURN the list of abundant numbers
 ```
+To check if a number can be expressed as the sum of two numbers from a list:
+```
+RECEIVE a list of numbers to use
+RECEIVE an integer to check
+FOR each number in the list
+  CALCULATE integer - list number
+  IF (integer - list number) is in the list
+  THEN return True
+  ELSE continue to the next list number
+RETURN False if the list is fully checked and no numbers matched
+```
 
 
 ### Comments on first iteration:
