@@ -1,4 +1,4 @@
-from math import floor, sqrt
+from math import floor, sqrt, ceil
 
 # Originally from problem 007
 def sqrt_rounded_up(number):
@@ -37,3 +37,17 @@ def convert_int_to_digits(number):
 def sum_of_digits(large_number):
   result = sum(convert_int_to_digits(large_number))
   return result
+
+# Originally from problem 021
+def get_list_of_factors(number):
+  list_of_factors = [1]
+  if sqrt(number) % 1 == 0:
+    list_of_factors.append(sqrt(number))
+
+  for i in range((ceil(sqrt(number)))-1, 1, -1):
+    if number % i == 0:
+      list_of_factors.append(i)
+      list_of_factors.append(number / i)
+  if number == 0: return [0]
+  if number == 1: return [1]
+  return list_of_factors
